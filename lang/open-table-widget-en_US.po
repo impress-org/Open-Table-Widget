@@ -1,0 +1,372 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Open Table Widget v1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-11-04 02:53:16+0000\n"
+"Last-Translator: <matt@wordimpress.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: classes/sunrise.class.php:294
+#@ open-table-widget
+msgid "Settings"
+msgstr ""
+
+#: classes/widget.php:23
+#@ open-table-widget
+msgid "Display an Open Table reservation form for your restaurant using an easy to use and intuitive widget"
+msgstr ""
+
+#: inc/options.php:3
+#@ open-table-widget
+msgid "About"
+msgstr ""
+
+#: inc/options.php:8
+#@ open-table-widget
+msgid "Options"
+msgstr ""
+
+#: inc/options.php:13
+#@ open-table-widget
+msgid "Disable Plugin CSS"
+msgstr ""
+
+#: inc/options.php:14
+#@ open-table-widget
+msgid "Useful to style your own widget and for theme integration and optimization."
+msgstr ""
+
+#: inc/options.php:18
+#: inc/options.php:26
+#: inc/options.php:34
+#@ open-table-widget
+msgid "Yes"
+msgstr ""
+
+#: inc/options.php:21
+#@ open-table-widget
+msgid "Disable Bootstrap select fields"
+msgstr ""
+
+#: inc/options.php:22
+#@ open-table-widget
+msgid "The select fields will be replaced by standard HTML select fields rather than the Twitter Bootstrap ones. For more information about the bootstrap dropdowns."
+msgstr ""
+
+#: inc/options.php:29
+#@ open-table-widget
+msgid "Disable Bootstrap dropdown JS"
+msgstr ""
+
+#: inc/options.php:30
+#@ open-table-widget
+msgid "Themes built with Twitter Bootstrap will already have support for the Bootstrap dropdowns. If this is your case, check this to remove the dropdown script from being output."
+msgstr ""
+
+#: inc/views/about.php:2
+#@ open-table-widget
+msgid "Welcome to Open Table Widget for WordPress"
+msgstr ""
+
+#: inc/views/about.php:6
+#@ open-table-widget
+msgid "Open Table Widget makes it a breeze to integrate powerful restaurant reservations forms right into your WordPress website."
+msgstr ""
+
+#: inc/views/about.php:8
+#@ open-table-widget
+msgid "Great for restaurants, nightclubs, bars and more."
+msgstr ""
+
+#: inc/views/about.php:18
+#@ open-table-widget
+msgid "Upgrade to Open Table Widget Pro"
+msgstr ""
+
+#: inc/views/about.php:25
+#@ open-table-widget
+msgid "<strong>Predefined Restaurants</strong> - Provide any number of restaurants that your users can select from to make reservations. Great for restaurant groups, directories, franchises, and anyone looking to provide targeted restaurant reservations."
+msgstr ""
+
+#: inc/views/about.php:26
+#@ open-table-widget
+msgid "<strong>User Lookup Reservations:</strong> Set any number of cities for the user to select from. Once the user selects a city they are then able to search for restaurants in that city found on Open Table to book their reservation.  This feature makes a powerful enhancement to real estate websites, local organizations and food blogs. "
+msgstr ""
+
+#: inc/views/about.php:27
+#@ open-table-widget
+msgid "<strong>Powerful Shortcode</strong>: Output the widget within any page or post using a fully documented and easy to use shortcode."
+msgstr ""
+
+#: inc/views/closetab.php:6
+#@ open-table-widget
+msgid "Save changes"
+msgstr ""
+
+#: inc/views/closetab.php:7
+#@ open-table-widget
+msgid "Saving"
+msgstr ""
+
+#: inc/views/closetab.php:8
+#@ open-table-widget
+msgid "Saved"
+msgstr ""
+
+#: inc/views/closetab.php:9
+#@ open-table-widget
+msgid "Reset all settings to default. Are you sure? This action cannot be undone!"
+msgstr ""
+
+#: inc/views/closetab.php:9
+#@ open-table-widget
+msgid "Restore default settings"
+msgstr ""
+
+#: inc/views/code.php:6
+#@ open-table-widget
+msgid "Insert code"
+msgstr ""
+
+#: inc/views/notifications.php:6
+#@ open-table-widget
+msgid "Instructions"
+msgstr ""
+
+#: inc/views/notifications.php:14
+#: inc/views/notifications.php:24
+#: inc/views/notifications.php:34
+#: inc/views/notifications.php:44
+#@ open-table-widget
+msgid "Click to close"
+msgstr ""
+
+#: inc/views/options-intro.php:2
+#@ open-table-widget
+msgid "Open Table Widget Plugin Options"
+msgstr ""
+
+#: inc/views/options-intro.php:4
+#@ open-table-widget
+msgid "The following options set plugin defaults and options on a global level."
+msgstr ""
+
+#: inc/views/settings.php:15
+#@ open-table-widget
+msgid "For full functionality of this page it is reccomended to enable javascript."
+msgstr ""
+
+#: inc/views/settings.php:16
+#@ open-table-widget
+msgid "Settings Reset Successfully"
+msgstr ""
+
+#: inc/views/settings.php:17
+#@ open-table-widget
+msgid "Plugins already set to default settings"
+msgstr ""
+
+#: inc/views/settings.php:18
+#@ open-table-widget
+msgid "Settings saved successfully"
+msgstr ""
+
+#: inc/views/settings.php:19
+#@ open-table-widget
+msgid "Settings not saved due to no changes being made."
+msgstr ""
+
+#: inc/views/social-media.php:3
+#@ open-table-widget
+msgid "Like this plugin?  Give it a like on Facebook:"
+msgstr ""
+
+#: inc/views/upload.php:8
+#@ open-table-widget
+msgid "Upload"
+msgstr ""
+
+#: inc/widget-form.php:11
+#@ default
+msgid "Widget Title"
+msgstr ""
+
+#: inc/widget-form.php:17
+#@ open-table-widget
+msgid "How would you like to use this widget?"
+msgstr ""
+
+#: inc/widget-form.php:20
+#@ open-table-widget
+msgid "Single Restaurant Reservation"
+msgstr ""
+
+#: inc/widget-form.php:23
+#@ open-table-widget
+msgid "Predefined Restaurants"
+msgstr ""
+
+#: inc/widget-form.php:26
+#@ open-table-widget
+msgid "User Lookup Reservations"
+msgstr ""
+
+#: inc/widget-form.php:34
+#@ open-table-widget
+msgid "<span>Usage Description: </span>Select a single restaurant for reservations."
+msgstr ""
+
+#: inc/widget-form.php:37
+#@ open-table-widget
+msgid "Restaurant Name"
+msgstr ""
+
+#: inc/widget-form.php:42
+#@ open-table-widget
+msgid "Open Table Restaurant ID:"
+msgstr ""
+
+#: inc/widget-form.php:43
+#@ open-table-widget
+msgid "This is your Open Table Restaurant ID used for reservations. Use the search field above to locate your restaurant."
+msgstr ""
+
+#: inc/widget-form.php:56
+#@ open-table-widget
+msgid "<span>Usage Description: </span>Create a list of restaurants for users to select from when making reservations. Drag and drop to reorder the restaurants."
+msgstr ""
+
+#: inc/widget-form.php:70
+#@ open-table-widget
+msgid "<span>Usage Description:</span>Allow the user to select from a list of cities and then search for specific restaurants to create a reservation."
+msgstr ""
+
+#: inc/widget-form.php:82
+#@ open-table-widget
+msgid "Display Options"
+msgstr ""
+
+#: inc/widget-form.php:88
+#@ default
+msgid "Widget Theme"
+msgstr ""
+
+#: inc/widget-form.php:91
+#@ open-table-widget
+msgid "Bare Bones"
+msgstr ""
+
+#: inc/widget-form.php:91
+#@ open-table-widget
+msgid "Minimal Light"
+msgstr ""
+
+#: inc/widget-form.php:91
+#@ open-table-widget
+msgid "Minimal Dark"
+msgstr ""
+
+#: inc/widget-form.php:91
+#@ open-table-widget
+msgid "Shadow Light"
+msgstr ""
+
+#: inc/widget-form.php:91
+#@ open-table-widget
+msgid "Shadow Dark"
+msgstr ""
+
+#: inc/widget-form.php:107
+#@ open-table-widget
+msgid "Hide Form Labels"
+msgstr ""
+
+#: inc/widget-form.php:108
+#@ open-table-widget
+msgid "The labels appear above the reservation form inputs. Check this option if you would like to hide the labels."
+msgstr ""
+
+#: inc/widget-form.php:114
+#@ open-table-widget
+msgid "Content Options:"
+msgstr ""
+
+#: inc/widget-form.php:120
+#@ open-table-widget
+msgid "Custom Date Label"
+msgstr ""
+
+#: inc/widget-form.php:126
+#@ open-table-widget
+msgid "Custom Time Label"
+msgstr ""
+
+#: inc/widget-form.php:131
+#@ open-table-widget
+msgid "Custom Party Size Label"
+msgstr ""
+
+#: inc/widget-form.php:138
+#@ open-table-widget
+msgid "Pre Form Content"
+msgstr ""
+
+#: inc/widget-form.php:144
+#@ open-table-widget
+msgid "Post Form Content"
+msgstr ""
+
+#: inc/widget-frontend.php:27
+#@ open-table-widget
+msgid "Date"
+msgstr ""
+
+#: inc/widget-frontend.php:38
+#@ open-table-widget
+msgid "Time"
+msgstr ""
+
+#: inc/widget-frontend.php:67
+#@ open-table-widget
+msgid "Party Size"
+msgstr ""
+
+#: inc/widget-frontend.php:88
+#@ open-table-widget
+msgid "Find a Table"
+msgstr ""
+
+#: inc/widget-frontend.php:105
+#@ open-table-widget
+msgid "Powered By:"
+msgstr ""
+
+#: open-table-widget.php:50
+#@ open-table-widget
+msgid "Open Table Widget"
+msgstr ""
+
+#: open-table-widget.php:51
+#@ open-table-widget
+msgid "Devin Walker"
+msgstr ""
+
+#: open-table-widget.php:52
+#@ open-table-widget
+msgid "otw"
+msgstr ""
+

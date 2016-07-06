@@ -1,0 +1,760 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Open Table Widget Pro v1.5.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-11-04 03:23:12+0000\n"
+"Last-Translator: maschinist.jana <essen@labonnefranquette.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: classes/core.php:338
+#@ open-table-widget
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: classes/widget.php:23
+#@ open-table-widget
+msgid "Display an Open Table reservation form for your restaurant using an easy to use and intuitive widget"
+msgstr "Zeigen Sie ein einfach zu Benutzendes und intuitives Open Table Reservierungs-Formular für Ihr Restaurant an"
+
+#: inc/licence/licence.php:62
+#@ open-table-widget
+msgid "activate your license"
+msgstr "Aktivieren Sie Ihre Lizenz"
+
+#: inc/licence/licence.php:63
+#@ open-table-widget
+msgid "Hide Notice"
+msgstr "Notiz verbergen"
+
+#: inc/licence/licence.php:246
+#@ open-table-widget
+msgid "Plugin License"
+msgstr "Plugin-Lizenz"
+
+#: inc/licence/licence.php:254
+#@ open-table-widget
+msgid "License Status:"
+msgstr "Lizenz-Status"
+
+#: inc/licence/licence.php:257
+#@ open-table-widget
+msgid " Days Remaining"
+msgstr "verbleibende Tage"
+
+#: inc/licence/licence.php:260
+#@ open-table-widget
+msgid "License Expiration:"
+msgstr "Lizenz läuft aus am:"
+
+#: inc/licence/licence.php:264
+#@ open-table-widget
+msgid "License Owner:"
+msgstr "Lizenzinhaber:"
+
+#: inc/licence/licence.php:267
+#@ open-table-widget
+msgid "License Email:"
+msgstr "Lizenz Email Adresse:"
+
+#: inc/licence/licence.php:270
+#@ open-table-widget
+msgid "License Payment ID:"
+msgstr "Lizenz Zahlungs-ID"
+
+#: inc/licence/licence.php:274
+#@ open-table-widget
+msgid "Your license is active and you are receiving updates."
+msgstr "Ihre Lizenz ist aktiv und Sie erhalten Updates."
+
+#: inc/licence/licence.php:281
+#@ open-table-widget
+msgid "The license you entered has reached the activation limit. To purchase more licenses please visit WordImpress."
+msgstr "Die Lizenz, die Sie eingegeben haben, hat ihr Aktivierungs-Limit erreicht. Um eine neue Lizenz zu erwerben, besuchen Sie bitte Wordimpress."
+
+#: inc/licence/licence.php:285
+#@ open-table-widget
+msgid "There was a problem with the license you entered. Please check that your license key is active and valid then reenter it below. If you are having trouble please contact support for assistance."
+msgstr "Es gab ein Problem mit der von Ihnen eingegebenen Lizenz. Bitte überprüfen Sie, ob ihr Lizenzschlüssel aktiv und gültig ist und geben Sie in unten erneut ein. Wenn Sie auf weitere Probleme stossen, kontaktieren Sie den Support für Unterstützung."
+
+#: inc/licence/licence.php:289
+#@ open-table-widget
+msgid "Activate your license to receive automatic plugin updates for the life of your license."
+msgstr "Aktivieren Sie Ihre Lizenz, um automatische Plugin-Updates bis zum Ende Ihres Lizenzzeitraumes zu erhalten."
+
+#: inc/licence/licence.php:302
+#@ open-table-widget
+msgid "Your licence is active and valid."
+msgstr "Ihre Lizenz ist aktiv und gültig."
+
+#: inc/licence/licence.php:304
+#@ open-table-widget
+msgid "Enter your license key to receive updates and support"
+msgstr "Geben Sie Ihren Lizenzschlüssel ein, um Updates und Support zu erhalten."
+
+#: inc/licence/licence.php:310
+#@ open-table-widget
+msgid "Deactivate License"
+msgstr "Lizenz Deaktivieren"
+
+#: inc/licence/licence.php:314
+#@ open-table-widget
+msgid "Activate License"
+msgstr "Lizenz Aktivieren"
+
+#: inc/options.php:3
+#@ open-table-widget
+msgid "About"
+msgstr "Über"
+
+#: inc/options.php:9
+#@ open-table-widget
+msgid "Widget Defaults"
+msgstr "Widget Standardwerte"
+
+#: inc/options.php:13
+#@ open-table-widget
+msgid "Widget Default Location"
+msgstr "Widget Standard Standort"
+
+#: inc/options.php:14
+#@ open-table-widget
+msgid "Select the default location and language you would like users to see on Open Table. Please note that this can be defined per widget."
+msgstr "Wählen Sie den voreingestellten Standort und Sprache aus, welche Ihre Benutzer bei Open Table sehen sollen. Bitte beachten Sie, daß diese Einstellung für mehrere Widgets unabhängig voneinander definiert werden kann. "
+
+#: inc/options.php:16
+#: inc/widget-form.php:279
+#@ open-table-widget
+msgid "Canada - English"
+msgstr "Kanada - Englisch"
+
+#: inc/options.php:18
+#: inc/widget-form.php:287
+#@ open-table-widget
+msgid "Germany - German"
+msgstr "Deutschland - Deutsch"
+
+#: inc/options.php:19
+#: inc/widget-form.php:283
+#@ open-table-widget
+msgid "Germany - English"
+msgstr "Deutschland - Englisch"
+
+#: inc/options.php:20
+#: inc/widget-form.php:291
+#@ open-table-widget
+msgid "United Kingdom"
+msgstr "Großbritannien"
+
+#: inc/options.php:21
+#: inc/widget-form.php:295
+#@ open-table-widget
+msgid "United States"
+msgstr "USA"
+
+#: inc/options.php:22
+#: inc/widget-form.php:303
+#@ open-table-widget
+msgid "Japan - Japanese"
+msgstr "Japan - Japanisch"
+
+#: inc/options.php:23
+#: inc/widget-form.php:299
+#@ open-table-widget
+msgid "Japan - English"
+msgstr "Japan - Englisch"
+
+#: inc/options.php:24
+#: inc/widget-form.php:311
+#@ open-table-widget
+msgid "Mexico - Spanish"
+msgstr "Mexiko - Spanisch"
+
+#: inc/options.php:25
+#: inc/widget-form.php:307
+#@ open-table-widget
+msgid "Mexico - English"
+msgstr "Mexiko - Englisch"
+
+#: inc/options.php:35
+#@ open-table-widget
+msgid "Advanced Options"
+msgstr "Erweiterte Einstellungen"
+
+#: inc/options.php:40
+#@ open-table-widget
+msgid "Disable Plugin CSS"
+msgstr "Plugin CSS deaktivieren"
+
+#: inc/options.php:41
+#@ open-table-widget
+msgid "Useful to style your own widget and for theme integration and optimization."
+msgstr "Nützlich, um Ihr Widget zu gestalten, auch für Theme-Integration und Optimierung."
+
+#: inc/options.php:45
+#: inc/options.php:53
+#: inc/options.php:61
+#@ open-table-widget
+msgid "Yes"
+msgstr "Ja"
+
+#: inc/options.php:48
+#@ open-table-widget
+msgid "Disable Bootstrap select fields"
+msgstr "Bootstrap Auswahlfelder deaktivieren"
+
+#: inc/options.php:49
+#@ open-table-widget
+msgid "The select fields will be replaced by standard HTML select fields rather than the Twitter Bootstrap ones. For more information about the bootstrap dropdowns."
+msgstr "Die Twitter-Bootstrap Auswahlfelder werden durch Standard-HTML Auswahlfelder ersetzt. Für mehr Informationen über die Bootstrap Auswahlfelder."
+
+#: inc/options.php:56
+#@ open-table-widget
+msgid "Disable Bootstrap dropdown JS"
+msgstr "Bootstrap Dropdown JS deaktivieren"
+
+#: inc/options.php:57
+#@ open-table-widget
+msgid "Themes built with Twitter Bootstrap will already have support for the Bootstrap dropdowns. If this is your case, check this to remove the dropdown script from being output."
+msgstr "Themes, die mit Twitter Bootstrap programmiert wurden, werden bereits Unterstützung für Bootstrap Dropdowns haben. Wenn das für Sie zutrifft, wählen Sie hier aus, um das Dropdown Skript von der Ausgabe auszuschließen."
+
+#: inc/views/about.php:2
+#@ open-table-widget
+msgid "Welcome to Open Table Widget for WordPress"
+msgstr "Willkommen beim Open Table Widget für WordPress"
+
+#: inc/views/about.php:6
+#@ open-table-widget
+msgid "Open Table Widget makes it a breeze to integrate powerful restaurant reservations forms right into your WordPress website."
+msgstr "Mit dem Open Table Widget integrieren Sie kinderleicht Restaurant-Reservierungsformulare in Ihre WordPress-Website."
+
+#: inc/views/about.php:7
+#@ open-table-widget
+msgid "Great for restaurants, nightclubs, bars and more."
+msgstr "Großartig für Restaurants, Nachtclubs, Bars und vieles mehr."
+
+#: inc/views/closetab.php:6
+#@ open-table-widget
+msgid "Save changes"
+msgstr "Änderungen Speichern"
+
+#: inc/views/closetab.php:7
+#@ open-table-widget
+msgid "Saving"
+msgstr "Speichert"
+
+#: inc/views/closetab.php:8
+#@ open-table-widget
+msgid "Saved"
+msgstr "Gespeichert"
+
+#: inc/views/closetab.php:9
+#@ open-table-widget
+msgid "Reset all settings to default. Are you sure? This action cannot be undone!"
+msgstr "Alle Einstellungen zurücksetzen. Sind Sie sicher? Dieser Vorgang kann nicht rückgängig gemacht werden!"
+
+#: inc/views/closetab.php:9
+#@ open-table-widget
+msgid "Restore default settings"
+msgstr "Standardeinstellungen wiederherstellen"
+
+#: inc/views/code.php:5
+#@ open-table-widget
+msgid "Insert code"
+msgstr "Code einfügen"
+
+#: inc/views/notifications.php:5
+#@ open-table-widget
+msgid "Instructions"
+msgstr "Anleitungen"
+
+#: inc/views/notifications.php:12
+#: inc/views/notifications.php:20
+#: inc/views/notifications.php:28
+#: inc/views/notifications.php:36
+#@ open-table-widget
+msgid "Click to close"
+msgstr "Klicken, um zu schließen"
+
+#: inc/views/options-intro.php:2
+#@ open-table-widget
+msgid "Open Table Widget Plugin Options"
+msgstr "Open Table Widget Plugin Optionen"
+
+#: inc/views/options-intro.php:3
+#@ open-table-widget
+msgid "The following options set plugin defaults and options on a global level."
+msgstr "Die folgenden Optionen setzen Plugin-Standardwerte und Optionen auf globaler Ebene."
+
+#: inc/views/settings.php:15
+#@ open-table-widget
+msgid "For full functionality of this page it is reccomended to enable javascript."
+msgstr "Aktivieren Sie Javascript, damit Sie diese Seite in vollem Funktionsumfang nutzen können."
+
+#: inc/views/settings.php:16
+#@ open-table-widget
+msgid "Settings Reset Successfully"
+msgstr "Einstellungen erfolgreich zurückgesetzt"
+
+#: inc/views/settings.php:17
+#@ open-table-widget
+msgid "Plugins already set to default settings"
+msgstr "Plugin ist bereits auf Standardeinstellungen gesetzt."
+
+#: inc/views/settings.php:18
+#@ open-table-widget
+msgid "Settings saved successfully"
+msgstr "Einstellungen erfolgreich gespeichert"
+
+#: inc/views/settings.php:19
+#@ open-table-widget
+msgid "Settings not saved due to no changes being made."
+msgstr "Die Einstellungen konnten nicht gespeichert werden, da keine Änderungen gemacht wurden."
+
+#: inc/views/social-media.php:3
+#@ open-table-widget
+msgid "Like this plugin?  Give it a like on Facebook:"
+msgstr "Gefällt Ihnen dieses Plugin? Liken Sie uns auf Facebook:"
+
+#: inc/views/upload.php:7
+#@ open-table-widget
+msgid "Upload"
+msgstr "Upload"
+
+#: inc/widget-form.php:12
+#@ open-table-widget
+msgid "Widget Title"
+msgstr "Widget Titel"
+
+#: inc/widget-form.php:18
+#@ open-table-widget
+msgid "Display Option"
+msgstr "Anzeigeoptionen"
+
+#: inc/widget-form.php:21
+#@ open-table-widget
+msgid "Single Restaurant Reservation"
+msgstr "Einzelnes Restaurant Reservierung"
+
+#: inc/widget-form.php:22
+#@ open-table-widget
+msgid "This option will only allow reservations for a single selected restaurant."
+msgstr "Diese Einstellungen erlaubt Reservierungen für nur ein vorausgewähltes Restaurant."
+
+#: inc/widget-form.php:25
+#@ open-table-widget
+msgid "Predefined Restaurants"
+msgstr "Voreingestellte Restaurants"
+
+#: inc/widget-form.php:26
+#@ open-table-widget
+msgid "This option will allow reservations for multiple predefined restaurants."
+msgstr "Diese Einstellung erlaubt Reservierungen für mehrere vorausgewählte Restaurants."
+
+#: inc/widget-form.php:29
+#@ open-table-widget
+msgid "User Lookup Reservations"
+msgstr "Benutzergesteuerte Reservierung"
+
+#: inc/widget-form.php:30
+#@ open-table-widget
+msgid "This option will allow the user to select a city and then lookup restaurants for reservations within their chosen city."
+msgstr "Diese Einstellung erlaubt dem Benutzer, eine Stadt auszuwählen, um dann innerhalb der gewählten Stadt ein Restaurant zur Reservierung zu wählen."
+
+#: inc/widget-form.php:39
+#@ open-table-widget
+msgid "<span>Usage Description: </span>Select a single restaurant for reservations."
+msgstr "<span>Anwendungsbeschreibung: </span>Wählen Sie ein einzelnes Restaurant zur Reservierung aus."
+
+#: inc/widget-form.php:44
+#: inc/widget-frontend.php:122
+#@ open-table-widget
+msgid "Restaurant Name"
+msgstr "Name des Restaurants"
+
+#: inc/widget-form.php:45
+#: inc/widget-form.php:68
+#@ open-table-widget
+msgid "Type Restaurant Name"
+msgstr "Geben Sie den Namen des Restaurants ein"
+
+#: inc/widget-form.php:50
+#@ open-table-widget
+msgid "Open Table Restaurant ID:"
+msgstr "Open Table Restaurant ID:"
+
+#: inc/widget-form.php:51
+#@ open-table-widget
+msgid "This is your Open Table Restaurant ID used for reservations. Use the search field above to locate your restaurant."
+msgstr "Das ist die für die Reservierung genutzte Open Table Restaurant ID. Benutzen Sie das Suchfeld darüber, um Ihr Restaurant zu suchen."
+
+#: inc/widget-form.php:63
+#@ open-table-widget
+msgid "<span>Usage Description: </span>Create a list of restaurants for users to select from when making reservations. Drag and drop to reorder the restaurants."
+msgstr "<span>Anwendungsbeschreibung: </span>Erstellen Sie eine Liste von Restaurants, welche Ihren Benutzern zur Auswahl stehen. Sortieren Sie die Restaurants per Drag and Drop."
+
+#: inc/widget-form.php:67
+#@ open-table-widget
+msgid "Add Restaurant"
+msgstr "Restaurant hinzufügen"
+
+#: inc/widget-form.php:67
+#@ open-table-widget
+msgid "Lookup a Restaurant by their ID to add to the list of available restaurants below."
+msgstr "Finden Sie ein Restaurant durch seine ID, um es zur Liste der verfügbaren Restaurants unten hinzuzufügen."
+
+#: inc/widget-form.php:73
+#@ open-table-widget
+msgid "Open Table Restaurants:"
+msgstr "Open Table Restaurants:"
+
+#: inc/widget-form.php:74
+#@ open-table-widget
+msgid "Use the Restaurant ID lookup field above to find restaurants and their corresponding IDs. Drag-and-drop the restaurants below to order how they appear in the widget select. Use this field to fine tune as needed."
+msgstr "Benutzen Sie das Restaurant-ID-Suchfeld darüber, um Restaurants und die dazugehörigen IDs zu finden. Sortieren Sie die Restaurants per Drag and Drop, um die Anzeige im Auswahlfeld zu ändern. Benutzen Sie dieses Feld, um eine Feinabstimmung vorzunehmen."
+
+#: inc/widget-form.php:109
+#@ open-table-widget
+msgid "<span>Usage Description:</span>Allow the user to select from a list of cities and then search for specific restaurants to create a reservation."
+msgstr "<span>Anwendungsbeschreibung:</span> Erlaubt dem Benutzer, sich eine Stadt auszuwählen, und anschließend Restaurants innerhalb dieser Stadt zur Reservierung  zu wählen."
+
+#: inc/widget-form.php:113
+#@ open-table-widget
+msgid "City"
+msgstr "Stadt"
+
+#: inc/widget-form.php:113
+#@ open-table-widget
+msgid "Add a user restaurant lookup based on Open Table restaurant cities. Type the name of the cities you wish to display below separated by commas."
+msgstr "Fügen Sie eine Open Table Restaurantsuche hinzu. Geben Sie unten die Namen der Städte ein, getrennt durch Kommata."
+
+#: inc/widget-form.php:114
+#@ open-table-widget
+msgid "Type City Name"
+msgstr "Namen der Stadt eingeben"
+
+#: inc/widget-form.php:121
+#@ open-table-widget
+msgid "Display Options"
+msgstr "Optionen anzeigen"
+
+#: inc/widget-form.php:128
+#@ open-table-widget
+msgid "Widget Theme"
+msgstr "Widget Theme"
+
+#: inc/widget-form.php:132
+#@ open-table-widget
+msgid "Bare Bones"
+msgstr "Neutral"
+
+#: inc/widget-form.php:133
+#@ open-table-widget
+msgid "Minimal Light"
+msgstr "Minimal hell"
+
+#: inc/widget-form.php:134
+#@ open-table-widget
+msgid "Minimal Dark"
+msgstr "Minimal Dunkel"
+
+#: inc/widget-form.php:135
+#@ open-table-widget
+msgid "Shadow Light"
+msgstr "Schatten hell"
+
+#: inc/widget-form.php:136
+#@ open-table-widget
+msgid "Shadow Dark"
+msgstr "Schatten dunkel"
+
+#: inc/widget-form.php:137
+#@ open-table-widget
+msgid "Inset Light"
+msgstr "Inset hell"
+
+#: inc/widget-form.php:138
+#@ open-table-widget
+msgid "Inset Dark"
+msgstr "Inset dunkel"
+
+#: inc/widget-form.php:155
+#@ open-table-widget
+msgid "Time Start"
+msgstr "Anfangszeit"
+
+#: inc/widget-form.php:155
+#@ open-table-widget
+msgid "The reservation time select start value. Please ensure this value is before the Time End value."
+msgstr "Beginn des Reservierungszeitraums. Bitte stellen Sie sicher, daß dieser Wert vor dem Ende des Reservierungszeitraums liegt."
+
+#: inc/widget-form.php:188
+#@ open-table-widget
+msgid "Time End"
+msgstr "Ende des Reservierungszeitraums"
+
+#: inc/widget-form.php:188
+#@ open-table-widget
+msgid "The reservation time select end value. Please ensure this value is after the Time Start value."
+msgstr "Ende des Reservierungszeitraums. Bitte stellen Sie sicher, daß dieser nach dem Beginn des Reservierungszeitraums liegt."
+
+#: inc/widget-form.php:206
+#@ open-table-widget
+msgid "Default Time"
+msgstr "Voreingestellte Zeit"
+
+#: inc/widget-form.php:206
+#@ open-table-widget
+msgid "This is the default reservation time selected."
+msgstr "Das ist die vorausgewählte Reservierungszeit."
+
+#: inc/widget-form.php:221
+#@ open-table-widget
+msgid "Time Increment"
+msgstr "Zeitschritt"
+
+#: inc/widget-form.php:221
+#@ open-table-widget
+msgid "This option effects many reservations per hour are displayed within the reservation time select."
+msgstr "Diese Option beeinflusst, wie viele Reservierungen pro Stunde innerhalb des Reservierungszeit-Auswahlfeldes angezeigt werden."
+
+#: inc/widget-form.php:227
+#@ open-table-widget
+msgid "15"
+msgstr "15"
+
+#: inc/widget-form.php:228
+#@ open-table-widget
+msgid "15 Minutes"
+msgstr "15 Minuten"
+
+#: inc/widget-form.php:231
+#@ open-table-widget
+msgid "30"
+msgstr "30"
+
+#: inc/widget-form.php:232
+#@ open-table-widget
+msgid "30 Minutes"
+msgstr "30 Minuten"
+
+#: inc/widget-form.php:235
+#@ open-table-widget
+msgid "60"
+msgstr "60"
+
+#: inc/widget-form.php:236
+#@ open-table-widget
+msgid "1 Hour"
+msgstr "1 Stunde"
+
+#: inc/widget-form.php:259
+#@ open-table-widget
+msgid "Hide Form Labels"
+msgstr "Beschriftungsfelder nicht anzeigen"
+
+#: inc/widget-form.php:260
+#@ open-table-widget
+msgid "The labels appear above the reservation form inputs. Check this option if you would like to hide the labels."
+msgstr "Die Beschriftungsfelder erscheinen überhalb der Eingabefelder im Reservierungsformular. Wählen Sie hier aus, wenn Sie sie verstecken möchten."
+
+#: inc/widget-form.php:266
+#@ open-table-widget
+msgid "Content Options:"
+msgstr "Inhalt Optionen"
+
+#: inc/widget-form.php:272
+#@ open-table-widget
+msgid "Location and Language"
+msgstr "Ort und Sprache"
+
+#: inc/widget-form.php:272
+#@ open-table-widget
+msgid "Provide the location and language of the restaurant(s) to send users on Open Table. The restaurant(s) you select must be within the location provided or the reservation link will not work. Be sure to test thoroughly."
+msgstr "Wählen Sie das Land und die Sprache aus, in dem Sie Benutzern die Reservierung über Open Table anbieten wollen. Das Restaurant / die Restaurants müssen sicher innerhalb des ausgewählten Landes befinden, da sonst der Reservierungslink nicht funktioniert. Bitte testen Sie gründlich!"
+
+#: inc/widget-form.php:278
+#@ open-table-widget
+msgid "ca-eng"
+msgstr "ca-eng"
+
+#: inc/widget-form.php:282
+#@ open-table-widget
+msgid "ger-eng"
+msgstr "de-eng"
+
+#: inc/widget-form.php:286
+#@ open-table-widget
+msgid "ger-ger"
+msgstr "de-de"
+
+#: inc/widget-form.php:290
+#@ open-table-widget
+msgid "uk"
+msgstr "gb"
+
+#: inc/widget-form.php:294
+#@ open-table-widget
+msgid "us"
+msgstr "us"
+
+#: inc/widget-form.php:298
+#@ open-table-widget
+msgid "jp-eng"
+msgstr "jp-eng"
+
+#: inc/widget-form.php:302
+#@ open-table-widget
+msgid "jp-jp"
+msgstr "jp-jp"
+
+#: inc/widget-form.php:306
+#: inc/widget-form.php:310
+#@ open-table-widget
+msgid "mx-eng"
+msgstr "mx-eng"
+
+#: inc/widget-form.php:334
+#@ open-table-widget
+msgid "Predefined Restaurants Label"
+msgstr "Beschriftung für vorausgewählte Restaurants"
+
+#: inc/widget-form.php:334
+#@ open-table-widget
+msgid "Only displays when Predefined Restaurants display option is selected."
+msgstr "Wird nur angezeigt, wenn die Option \\\"vorausgewählte Restaurants\\\" ausgewählt wird."
+
+#: inc/widget-form.php:335
+#: inc/widget-frontend.php:45
+#@ open-table-widget
+msgid "Select a Restaurant"
+msgstr "Wählen Sie ein Restaurant"
+
+#: inc/widget-form.php:339
+#@ open-table-widget
+msgid "User Lookup Cities Label"
+msgstr "Beschriftung für Benutzerdefierte Städteauswahl"
+
+#: inc/widget-form.php:340
+#: inc/widget-frontend.php:91
+#@ open-table-widget
+msgid "Select a City"
+msgstr "Wählen Sie eine Stadt aus"
+
+#: inc/widget-form.php:345
+#@ open-table-widget
+msgid "Custom Date Label"
+msgstr "Beschriftung für das Datumsfeld"
+
+#: inc/widget-form.php:346
+#: inc/widget-frontend.php:131
+#@ open-table-widget
+msgid "Date"
+msgstr "Datum"
+
+#: inc/widget-form.php:351
+#@ open-table-widget
+msgid "Custom Time Label"
+msgstr "Beschriftung für das Zeitfeld"
+
+#: inc/widget-form.php:352
+#: inc/widget-frontend.php:142
+#@ open-table-widget
+msgid "Time"
+msgstr "Zeit"
+
+#: inc/widget-form.php:356
+#@ open-table-widget
+msgid "Custom Party Size Label"
+msgstr "Beschriftung für die Anzahl der Gäste"
+
+#: inc/widget-form.php:357
+#: inc/widget-frontend.php:161
+#@ open-table-widget
+msgid "Party Size"
+msgstr "Anzahl Gäste"
+
+#: inc/widget-form.php:362
+#@ open-table-widget
+msgid "Submit Button Text"
+msgstr "Absenden Button Text"
+
+#: inc/widget-form.php:363
+#: inc/widget-frontend.php:183
+#@ open-table-widget
+msgid "Find a Table"
+msgstr "Reservieren Sie einen Tisch"
+
+#: inc/widget-form.php:369
+#@ open-table-widget
+msgid "Pre Form Content"
+msgstr "Inhalt vor dem Formular"
+
+#: inc/widget-form.php:375
+#@ open-table-widget
+msgid "Post Form Content"
+msgstr "Inhalt nach dem Formular"
+
+#: inc/widget-frontend.php:52
+#@ open-table-widget
+msgid "Select..."
+msgstr "Auswählen..."
+
+#: inc/widget-frontend.php:65
+#@ open-table-widget
+msgid "Error: Restaurant IDs not properly input. Please check restaurant IDs field."
+msgstr "Fehler. Die Restaurant IDs wurden nicht ordnungsgemäß eingegeben. Bitte überprüfen Sie das Restaurant-ID Feld."
+
+#: inc/widget-frontend.php:98
+#@ open-table-widget
+msgid "Select a city..."
+msgstr "Wählen Sie eine Stadt..."
+
+#: inc/widget-frontend.php:116
+#@ open-table-widget
+msgid "Find a Restaurant"
+msgstr "Finden Sie ein Restaurant"
+
+#: inc/widget-frontend.php:201
+#@ open-table-widget
+msgid "Powered By:"
+msgstr "bereitgestellt von:"
+
+#: open-table-widget.php:42
+#@ open-table-widget
+msgid "Open Table Widget"
+msgstr "Open Table Widget"
+
+#: open-table-widget.php:43
+#@ open-table-widget
+msgid "Devin Walker"
+msgstr "Devin Walker"
+
+#: open-table-widget.php:44
+#@ open-table-widget
+msgid "open-table-widget"
+msgstr "open-table-widget"
+
+#: inc/widget-form.php:251
+#@ open-table-widget
+msgid "Maximum Seats Available"
+msgstr "Maximale Plätze frei"
+
+#: inc/widget-form.php:251
+#@ open-table-widget
+msgid "Here you can set the maximum number of seats you have available at your restaurant"
+msgstr ""
+
