@@ -4,8 +4,6 @@
  *  Open Table Widget
  *
  * @description: The Open Table Widget
- * @since      : 1.0
- * @created    : 8/28/13
  */
 class Open_Table_Widget extends WP_Widget
 {
@@ -34,7 +32,11 @@ class Open_Table_Widget extends WP_Widget
 
     }
 
-    //Load Widget JS Script ONLY on Widget page
+    /**
+     * Load Widget JS Script ONLY on Widget page
+     *
+     * @param $hook
+     */
     function add_otw_admin_widget_scripts($hook)
     {
 
@@ -55,6 +57,9 @@ class Open_Table_Widget extends WP_Widget
         }
     }
 
+    /**
+     * Open Table API Request
+     */
     function otw_widget_request_open_table_api()
     {
 
@@ -70,9 +75,10 @@ class Open_Table_Widget extends WP_Widget
 
 
     /**
-     * Adds Open Table Widget Stylesheets
+     * Frontend Scripts
+     *
+     * @description: Adds Open Table Widget Stylesheets
      */
-
     function add_otw_widget_css()
     {
 

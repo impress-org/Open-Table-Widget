@@ -1,8 +1,8 @@
 <?php
 /*
- *  @description: Widget form options in WP-Admin
- *  @since 1.0
- *  @created: 08/08/13
+ * Open Table Widget Admin Form
+ *
+ * @description: Widget form options in WP-Admin
  */
 
 ?>

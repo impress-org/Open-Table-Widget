@@ -1,10 +1,8 @@
 <?php
 /**
- *  OTW Widget Frontend Display
+ * OTW Widget Frontend Display
  *
  * @description: Responsible for the frontend display of the Open Table Widget
- * @since      : 1.0
- * @created    : 9/10/13
  */
 ?>
 

@@ -71,7 +71,7 @@ function init_open_table_widget() {
 
 }
 
-/*
+/**
  * @DESC: Register Open Table widget
  */
 add_action( 'widgets_init', 'init_open_table_widget' );
