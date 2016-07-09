@@ -30,7 +30,7 @@ class Open_Table_Widget extends WP_Widget
 
         add_action('wp_enqueue_scripts', array($this, 'add_otw_widget_css'));
         add_action('admin_enqueue_scripts', array($this, 'admin_widget_scripts' ));
-        add_action('wp_ajax_open_table_api_action', array($this, 'otw_widget_request_open_table_api'));
+        add_action('wp_ajax_open_table_api_action', array($this, 'request_open_table_api' ));
 
     }
 
@@ -55,7 +55,7 @@ class Open_Table_Widget extends WP_Widget
         }
     }
 
-    function otw_widget_request_open_table_api()
+    function request_open_table_api()
     {
 
         $restaurant = html_entity_decode(addslashes($_POST['restaurant']));
