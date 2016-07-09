@@ -28,7 +28,7 @@ class Open_Table_Widget extends WP_Widget
 
         $this->options = get_option('opentablewidget_options');
 
-        add_action('wp_enqueue_scripts', array($this, 'add_otw_widget_css'));
+        add_action('wp_enqueue_scripts', array($this, 'frontend_widget_scripts' ));
         add_action('admin_enqueue_scripts', array($this, 'admin_widget_scripts' ));
         add_action('wp_ajax_open_table_api_action', array($this, 'request_open_table_api' ));
 
@@ -73,7 +73,7 @@ class Open_Table_Widget extends WP_Widget
      * Adds Open Table Widget Stylesheets
      */
 
-    function add_otw_widget_css()
+    function frontend_widget_scripts()
     {
 
         //Determine whether to display minified scripts/css or not (debugging true sets it)
