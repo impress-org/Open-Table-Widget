@@ -28,7 +28,7 @@
 						}
 						?></label>
 				<?php } ?>
-				<input id="date-<?php echo $args["widget_id"]; ?>" name="startDate" class="otw-reservation-date" type="text" value="" autocomplete="off">
+				<input id="date-<?php echo $args["widget_id"]; ?>" name="startDate" class="otw-reservation-date" type="text" value="" autocomplete="off" readonly="readonly">
 			</div>
 			<div class="otw-time-wrap otw-input-wrap">
 				<?php if ( $hideLabels !== '1' ) { ?>
