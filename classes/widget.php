@@ -59,8 +59,14 @@ class Open_Table_Widget extends WP_Widget
     {
 
         $restaurant = html_entity_decode(addslashes($_POST['restaurant']));
+
         // Send API Call using WP's HTTP API
         $data = wp_remote_get('https://opentable.herokuapp.com/api/restaurants?name=' . $restaurant);
+
+        //Proper error checking
+        if ( is_wp_error( $data ) ) {
+            echo esc_html__( 'Open Table API Error', 'open-table-widget' ) . ': ' . $data->get_error_message();
+        }
 
         // Handle OTW response data
         echo $data["body"];
