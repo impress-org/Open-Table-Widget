@@ -77,7 +77,7 @@ class Open_Table_Widget extends WP_Widget
     /**
      * Frontend Scripts
      *
-     * @description: Adds Open Table Widget Stylesheets
+     * @description: Registers Open Table Widget Stylesheets. Enqueing is done conditionally based on plugins settings in the widget() function
      */
     function frontend_widget_scripts()
     {
@@ -89,33 +89,14 @@ class Open_Table_Widget extends WP_Widget
 
         $otw_datepicker = plugins_url('assets/js/datepicker' . $suffix . '.js', dirname(__FILE__));
 
-        if ($this->options["disable_css"] !== "on") {
-            wp_register_style('otw_widget', $otw_css);
-            wp_enqueue_style('otw_widget');
-        }
+        //Register All Styles/Scripts
+        wp_register_style('otw_widget', $otw_css, null, OTW_PLUGIN_VERSION);
+        wp_register_style('otw_selectric_css', plugins_url('assets/css/selectric' . $suffix . '.css', dirname(__FILE__) ), null, OTW_PLUGIN_VERSION);
+        wp_register_style('otw_datepicker_css', plugins_url('assets/css/otw-datepicker' . $suffix . '.css', dirname(__FILE__) ), null, OTW_PLUGIN_VERSION);
 
-        //We need jQuery here
-        wp_enqueue_script('jquery');
-
-        //Datepicker
-        wp_register_script('otw_datepicker_js', $otw_datepicker, array('jquery'));
-        wp_enqueue_script('otw_datepicker_js');
-
-        //Select Menus
-        $selectric = $this->options["disable_bootstrap_select"];
-        
-        if ( $selectric !== "on") {
-            wp_register_script('otw_select_js', plugins_url('assets/js/jquery.selectric' . $suffix . '.js', dirname(__FILE__), array('jquery')));
-            wp_enqueue_script('otw_select_js');
-        }
-        
-        //Open Table Widget Specific Scripts
+        wp_register_script('otw_select_js', plugins_url('assets/js/jquery.selectric' . $suffix . '.js', dirname(__FILE__)), array('jquery'), OTW_PLUGIN_VERSION );
         wp_register_script('otw_widget_js', plugins_url('assets/js/open-table-widget' . $suffix . '.js', dirname(__FILE__), array('jquery')));
-        wp_enqueue_script('otw_widget_js');
-        $jsParams = array(
-            'restaurant_id' => ''
-        );
-        wp_localize_script('otw-widget-js', 'otwParams', $jsParams);
+        wp_register_script('otw_datepicker_js', $otw_datepicker, array('jquery', 'otw_widget_js'), OTW_PLUGIN_VERSION);
 
     }
 
@@ -147,14 +128,44 @@ class Open_Table_Widget extends WP_Widget
         /*
          * Output Widget Content
          */
+
+        // Conditionally Enqueue Styles/Scripts based on Plugin Settings
+
+        //Open Table Widget Specific Scripts
+        wp_enqueue_script('otw_widget_js');
+
+        $jsParams = array(
+            'restaurant_id' => ''
+        );
+        wp_localize_script('otw-widget-js', 'otwParams', $jsParams);
+
+        //Datepicker
+        wp_enqueue_script('otw_datepicker_js');
+        wp_enqueue_style('otw_datepicker_css');
+
+        // Only enqueue Widget styles if setting is NOT "on"
+        if ($this->options["disable_css"] !== "on") {
+            wp_enqueue_style('otw_widget');
+        }
+
+        // Only enqueue the selectric dropdown if the setting is NOT "on"
+        $selectric = $this->options["disable_bootstrap_select"];
+
+        if ( $selectric !== "on") {
+            wp_enqueue_script('otw_select_js');
+            wp_enqueue_style('otw_selectric_css'); ?>
+
+            <script>
+                jQuery(function($){
+                    $('.otw-wrapper select').selectric();
+                });
+            </script>
+        <?php }
+
         //Widget Style
         $style = "otw-" . sanitize_title($widgetStyle) . "-style";
         ?>
-        <script>
-            jQuery(function($){
-                $('.otw-wrapper select').selectric();
-            });
-            </script>
+
         <?php
         /* Add the width from $widget_width to the class from the $before widget
         http://wordpress.stackexchange.com/questions/18942/add-class-to-before-widget-from-within-a-custom-widget
