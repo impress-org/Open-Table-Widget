@@ -21,6 +21,7 @@ jQuery(document).ready(function ($) {
 	//Datepicker Initialization
 	$(".otw-reservation-date").datepicker({
 		autohide : true,
+		autopick : true,
 		format: "mm/dd/yyyy",
 		weekStart: 0,
 		filter: function ( date ) {
