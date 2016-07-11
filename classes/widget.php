@@ -28,14 +28,14 @@ class Open_Table_Widget extends WP_Widget
 
         $this->options = get_option('opentablewidget_options');
 
-        add_action('wp_enqueue_scripts', array($this, 'add_otw_widget_css'));
-        add_action('admin_enqueue_scripts', array($this, 'add_otw_admin_widget_scripts'));
-        add_action('wp_ajax_open_table_api_action', array($this, 'otw_widget_request_open_table_api'));
+        add_action('wp_enqueue_scripts', array($this, 'frontend_widget_scripts' ));
+        add_action('admin_enqueue_scripts', array($this, 'admin_widget_scripts' ));
+        add_action('wp_ajax_open_table_api_action', array($this, 'request_open_table_api' ));
 
     }
 
     //Load Widget JS Script ONLY on Widget page
-    function add_otw_admin_widget_scripts($hook)
+    function admin_widget_scripts($hook)
     {
 
         $suffix = defined('SCRIPT_DEBUG') && SCRIPT_DEBUG ? '' : '.min';
@@ -55,7 +55,7 @@ class Open_Table_Widget extends WP_Widget
         }
     }
 
-    function otw_widget_request_open_table_api()
+    function request_open_table_api()
     {
 
         $restaurant = html_entity_decode(addslashes($_POST['restaurant']));
@@ -73,7 +73,7 @@ class Open_Table_Widget extends WP_Widget
      * Adds Open Table Widget Stylesheets
      */
 
-    function add_otw_widget_css()
+    function frontend_widget_scripts()
     {
 
         //Determine whether to display minified scripts/css or not (debugging true sets it)
