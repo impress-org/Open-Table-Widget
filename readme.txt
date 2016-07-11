@@ -4,7 +4,7 @@ Donate link: http://wordimpress.com/
 Tags: open table, open table widget, open table form, open table reservations, reservations, restaurant, open table shortcode
 Requires at least: 3.8
 Tested up to: 4.5.2
-Stable tag: 1.7
+Stable tag: 1.8
 
 Open Table Widget makes it a breeze for you to add powerful Open Table reservation forms to your website via an easy to use and intuitive widget.
 
@@ -79,6 +79,16 @@ Yes, there are three basic themes included in the free version of the plugin. Th
 4. New Selectize select fields are browser edge aware, making the select options always in view regardless of where they are on the screen.
 
 == Changelog ==
+= 1.8: July 11, 2016 =
+* Tweak: Code cleanup and improvements (https://github.com/WordImpress/Open-Table-Widget/issues/1 and https://github.com/WordImpress/Open-Table-Widget/issues/3)
+* Fix: Completely separate logic so Selectric and Widget styles can be disabled in the settings without affecting the other (https://github.com/WordImpress/Open-Table-Widget/issues/14)
+* Fix: Properly check for wp_error and wp_remote_get (https://github.com/WordImpress/Open-Table-Widget/issues/2)
+* Enhancement: Disable keyboard on mobile devices (https://github.com/WordImpress/Open-Table-Widget/issues/5)
+* Enhancement: Update to latest version of datepicker.js (https://github.com/WordImpress/Open-Table-Widget/issues/6)
+* Enhancement: Set datepicker to today by default (https://github.com/WordImpress/Open-Table-Widget/issues/12)
+* Enhancement: Make today and selected date highlight less subtle (https://github.com/WordImpress/Open-Table-Widget/issues/13)
+
+
 = 1.7 =
 * Made all external API calls and links either HTTPS or protocol agnostic to support full HTTPS sites.
 * Removed all Bootstrap styles and JS
