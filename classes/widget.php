@@ -4,8 +4,6 @@
  *  Open Table Widget
  *
  * @description: The Open Table Widget
- * @since      : 1.0
- * @created    : 8/28/13
  */
 class Open_Table_Widget extends WP_Widget
 {
@@ -28,13 +26,17 @@ class Open_Table_Widget extends WP_Widget
 
         $this->options = get_option('opentablewidget_options');
 
-        add_action('wp_enqueue_scripts', array($this, 'frontend_widget_scripts' ));
-        add_action('admin_enqueue_scripts', array($this, 'admin_widget_scripts' ));
-        add_action('wp_ajax_open_table_api_action', array($this, 'request_open_table_api' ));
+        add_action('wp_enqueue_scripts', array($this, 'frontend_widget_scripts'));
+        add_action('admin_enqueue_scripts', array($this, 'admin_widget_scripts'));
+        add_action('wp_ajax_open_table_api_action', array($this, 'request_open_table_api'));
 
     }
 
-    //Load Widget JS Script ONLY on Widget page
+    /**
+     * Load Widget JS Script ONLY on Widget page
+     *
+     * @param $hook
+     */
     function admin_widget_scripts($hook)
     {
 
@@ -55,18 +57,15 @@ class Open_Table_Widget extends WP_Widget
         }
     }
 
+    /**
+     * Open Table API Request
+     */
     function request_open_table_api()
     {
 
         $restaurant = html_entity_decode(addslashes($_POST['restaurant']));
-
         // Send API Call using WP's HTTP API
         $data = wp_remote_get('https://opentable.herokuapp.com/api/restaurants?name=' . $restaurant);
-
-        //Proper error checking
-        if ( is_wp_error( $data ) ) {
-            echo esc_html__( 'Open Table API Error', 'open-table-widget' ) . ': ' . $data->get_error_message();
-        }
 
         // Handle OTW response data
         echo $data["body"];
@@ -76,9 +75,10 @@ class Open_Table_Widget extends WP_Widget
 
 
     /**
-     * Adds Open Table Widget Stylesheets
+     * Frontend Scripts
+     *
+     * @description: Adds Open Table Widget Stylesheets
      */
-
     function frontend_widget_scripts()
     {
 
