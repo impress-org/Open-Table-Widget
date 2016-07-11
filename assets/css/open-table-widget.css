@@ -1620,6 +1620,10 @@ OTW Inset Themes
 	color: #39f;
 }
 
+.open-table-widget-datepicker .datepicker-panel > ul > li.picked {
+	background: #eee;
+}
+
 .open-table-widget-datepicker .datepicker-panel > ul > li.disabled,
 .open-table-widget-datepicker .datepicker-panel > ul > li.disabled:hover {
 	cursor: default;
