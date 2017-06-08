@@ -89,11 +89,11 @@
 		<select name="<?php echo $this->get_field_name( 'widget_style' ); ?>" id="#" class="widefat profield">
 			<?php
 			$options = array(
-				__( 'Bare Bones', 'open-table-widget' ),
-				__( 'Minimal Light', 'open-table-widget' ),
-				__( 'Minimal Dark', 'open-table-widget' ),
-				__( 'Shadow Light', 'open-table-widget' ),
-				__( 'Shadow Dark', 'open-table-widget' )
+				'Bare Bones',
+				'Minimal Light',
+				'Minimal Dark',
+				'Shadow Light',
+				'Shadow Dark'
 			);
 			//Counter for Option Values
 			$counter = 0;
